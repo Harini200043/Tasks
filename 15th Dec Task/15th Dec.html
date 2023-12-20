@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <fieldset>
+            <center>
+                <form method="post">
+                    <h2><u>Application Form</u></h2>
+                    <label for="username"><b>Username:</b></label>
+                    <input type="text" id="username" name="username" required><br><br>
+                    <label for="pno"><b>Phone Number:</b></label>
+                    <input type="tel" name="pno" id="pno"/><br><br>
+                    <label for="dob"><b>Date of Birth:</b></label>
+                    <input type="date" name="dob" id="dob"/><br><br>
+                    <label for="gender"><b>Gender:</b></label>
+                    <input type="radio" name="gender" id="gender"/>
+                    <label for="gender">Male</label>
+                    <input type="radio" name="gender" id="gender"/>
+                    <label for="gender">Female</label><br><br>
+                    <label for="photo"><b>Photo:</b></label>
+                    <input type="file" name="photo" id="photo"/><br><br>
+                    <label for="email"><b>Email:</b></label>
+                    <input type="email" id="email" name="email" required><br><br>
+                    <label for="aadhar"><b>Aadhar number:</b></label>
+                    <input type="number" id="aadhar" name="aadhar" required><br><br>
+                    <label for="linkedin"><b>Linkedin:</b></label>
+                    <input type="url" name="linkedin" id="linkedin"/><br><br>
+                    <label for="langu"><b>Languages Known:</b></label><br><br>
+                    <input type="checkbox" name="langu" id="langu"/>
+                    <label for="langu">Telugu</label>
+                    <input type="checkbox" name="langu" id="langu"/>
+                    <label for="langu">Hindi</label>
+                    <input type="checkbox" name="langu" id="langu"/>
+                    <label for="langu">English</label>
+                    <input type="checkbox" name="langu" id="langu"/>
+                    <label for="langu">Tamil</label>
+                    <input type="checkbox" name="langu" id="langu"/>
+                    <label for="langu">Marati</label><br><br>
+                    
+
+                    <label for="city"><b>Select your Place:</b></label>
+                    <select id="city" name="city">
+                        <option>Hyderabad</option>
+                        <option>Warangal</option>
+                        <option>karimnagar</option>
+                        <option>Hanumakonda</option>
+                    </select><br><br>
+                    <label for="clg"><b>College Name:</b></label>
+                    <input list="clgs" id="clg" name="clg">
+                    <datalist id="clgs">
+                        <option value="Vasundara College">
+                        <option value="Sai Sudheer College">
+                        <option value="Bhavans Vivekananda College">
+                        <option value="Little Flower College">
+                        <option value="Omega College">
+                    </datalist><br><br>
+                    <textarea name="description" rows="5" placeholder="enter">
+                    </textarea><br><br> 
+                    <input type="reset" value="Reset" name="reset">
+                    <input type="submit" value="Submit" name="Submit"><br><br>
+                </form>
+            </center>
+        </fieldset>
+    </body>
+</html>
